@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Adamina&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #05B5A2;
+}
+
+/* Inicio do cabeçalho*/
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #63C2B8;
+    padding: 8px 0px;
+}
+
+.header img {
+    margin-right: 2rem;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    margin-left: 5rem;
+}
+
+.list {
+    display: flex;
+    gap: 35px;
+    list-style: none;
+    margin-left: 3rem;
+}
+
+.list a {
+    padding: 7px;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    transition-duration: 0.4s;
+}
+
+.list a:hover {
+    background: #0000004f;
+}
+
+/*Inicio do primeiro conteudo*/
+
+.first-content {
+    text-align: center;
+}
+
+.first-content h1 {
+    font-family: 'Adamina', serif;
+    font-size: 35px;
+    color: #ffffff;
+    padding: 30px 0px;
+}
+
+.first-content h2 {
+    font-family: 'Abel', sans-serif;
+    font-size: 35px;
+    padding-right: 5px;
+}
+
+.first-content span {
+    font-family: 'Adamina', serif;
+    margin-left: 10px;
+}
+
+.second-content {
+    position: absolute;
+    top: 312px;
+    left: 139px;
+    z-index: 1;
+    font-family: 'Adamina', serif;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+/*Inicio do segundo conteudo*/
+
+.second-content p {
+    font-size: 12px;
+    padding-top: 12px;
+}
+
+.second-content button {
+    position: absolute;
+    top: 293px;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    padding: 10px 15px;
+    border-radius: 15px;
+    background: #09C2AE;
+    box-shadow: 0px 23px 21px rgba(0, 0, 0, 0.25);
+    border: none;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.second-content button:hover {
+    background: #078b7e;
+}
+
+/* Inicio social media*/
+
+.social-media {
+    display: flex;
+    flex-direction: column;
+    right: 41px;
+    bottom: 19px;
+    width: 75px;
+    position: absolute;
+    z-index: 1;
+}
+
+.background img {
+    position: absolute;
+    top: 220px;
+    width: 100%;
+}
